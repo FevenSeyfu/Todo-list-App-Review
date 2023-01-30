@@ -1,9 +1,8 @@
 import './style.css';
 import dotsIcon from './dots.png';
 import addTask from './Add-task.js';
-import removetask from './remove-task.js';
 import editDescription from './edit-task.js';
-import { checkStatus, clearAllCompleted } from './Interactive.js';
+import { checkStatus, clearAllCompleted ,removetask} from './Interactive.js';
 
 const taskListContainer = document.getElementById('todoListPlaceholder');
 const taskForm = document.getElementById('task-form');
